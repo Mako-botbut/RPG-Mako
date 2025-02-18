@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Interfaz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>CAT-MAKER RPG</h1>
+
+    <h2>Estadisticas del personaje</h2>
+    <div class="personaje" id="pj">
+        <img src="img/wizcat.jpg" alt="Imagen no encontrada">
+        <!-- Recibir valores de la funciones correspondientes -->
+         <button onclick="Fireball()">Fireball</button>
+         <button onclick="Meditar()">Meditar</button>
+         <button onclick="Frostnova()">Frostnova</button>
+    </div>
+
+    <h2>Registro de combate</h2>
+    <div class="consolaAcciones" id="log"></div> <!--Inyectar los registros de combate-->
+
+    <!-- <div id="contenedor"></div> -->
+    
+    <script src="javascript/personaje.js"></script>
+    <script src="javascript/clases.js"></script>
+    <script src="javascript/gameplay.js"></script>
+</body>
+</html>
